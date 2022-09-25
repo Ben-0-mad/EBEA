@@ -1,6 +1,6 @@
 from numba import njit
 
-@njit
+#@njit
 def strippowers(r,x,y,alpha,beta):
     if x%2==0 and y%2==0:
       x,y= x//2,y//2
@@ -8,7 +8,7 @@ def strippowers(r,x,y,alpha,beta):
       x,y = (x+beta)//2,(y-alpha)//2
     return r//2, x, y
 
-@njit
+#@njit
 def EBEA(a,b):
   ap = abs(a)
   bp = abs(b)
