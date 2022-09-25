@@ -1,4 +1,4 @@
-from numba import njit
+#from numba import njit
 
 #@njit
 def strippowers(r,x,y,alpha,beta):
